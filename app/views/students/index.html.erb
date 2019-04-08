@@ -1,0 +1,5 @@
+<%# app/views/students/index.html.erb %>
+<h1>Students</h1>
+<ul>
+  <li><%= @student.map { |student| "#{student.first_name} #{student.last_name}" } %></li>
+</ul>
